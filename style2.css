@@ -1,0 +1,68 @@
+body {
+  border: 5px solid aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/background.jpg) center/cover fixed no-repeat;
+}
+p {
+  text-align: center;
+  color: white;
+  border-radius: 70%;
+  border: 5px solid aliceblue;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 80px;
+}
+.title {
+  text-decoration: underline;
+  margin-top: 15px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+}
+div {
+  width: 350px;
+  height: 350px;
+  margin-left: 37%;
+  margin-bottom: 30px;
+  transition: all 1s;
+  transition-timing-function: ease;
+  position: relative;
+}
+img {
+  margin-top: 30px;
+  height: 100%;
+  width: 100%;
+}
+div::before {
+  margin-top: 30px;
+  content: "";
+  border: 2px solid aliceblue;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -1;
+}
+div::after {
+  margin-top: 30px;
+  content: "";
+  background: aliceblue;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -2;
+}
+div:hover::after,
+div:hover::before {
+  top: 0;
+  left: 0;
+}

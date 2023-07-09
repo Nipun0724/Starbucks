@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+img {
+  margin-left: 40%;
+}
+p {
+  text-align: center;
+  color: white;
+  border-radius: 70%;
+  border: 5px solid aliceblue;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 80px;
+}
+body {
+  border: 5px solid aliceblue;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/images/background.jpg) center/cover fixed no-repeat;
+}
+.title {
+  text-decoration: underline;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.about {
+  margin-top: 50px;
+  text-align: center;
+  color: aliceblue;
+}
+.contents {
+  text-decoration: underline;
+  margin-top: 50px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+}
+.list {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 45.8%;
+  color: aliceblue;
+  font-size: 25px;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+a:visited {
+  color: blueviolet;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  text-decoration: underline;
+}
