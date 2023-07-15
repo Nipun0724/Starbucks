@@ -1,98 +1,127 @@
-let sum = 0;
 let count1 = 0;
-let count2 = 0;
-let count3 = 0;
-let count4 = 0;
-let count5 = 0;
-let count6 = 0;
-let count7 = 0;
-let count8 = 0;
-let count9 = 0;
-let count10 = 0;
-let count11 = 0;
-let count12 = 0;
-document.getElementById("total").textContent = "Total : 0";
+let sum = 0;
+let totalEl = document.getElementById("total-el");
+let row1El = document.getElementById("row1-el");
 function add1() {
   count1 += 1;
-  let price1 = document.getElementById("itemprice1").textContent;
-  sum += Number(price1);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count1").textContent = count1;
+  row1El.innerHTML = `<td>Hot Coffee</th><th>${count1}</td>`;
+  sum += 499;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count2 = 0;
+let row2El = document.getElementById("row2-el");
 function add2() {
   count2 += 1;
-  let price2 = document.getElementById("itemprice2").textContent;
-  sum += Number(price2);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count2").textContent = count2;
+  row2El.innerHTML = `<td>Hot Tea</th><th>${count2}</td>`;
+  sum += 299;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count3 = 0;
+let row3El = document.getElementById("row3-el");
 function add3() {
   count3 += 1;
-  let price3 = document.getElementById("itemprice3").textContent;
-  sum += Number(price3);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count3").textContent = count3;
+  row3El.innerHTML = `<td>Iced Tea</th><th>${count3}</td>`;
+  sum += 399;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count4 = 0;
+let row4El = document.getElementById("row4-el");
 function add4() {
   count4 += 1;
-  let price4 = document.getElementById("itemprice4").textContent;
-  sum += Number(price4);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count4").textContent = count4;
+  row4El.innerHTML = `<td>Donut</th><th>${count4}</td>`;
+  sum += 499;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count5 = 0;
+let row5El = document.getElementById("row5-el");
 function add5() {
   count5 += 1;
-  let price5 = document.getElementById("itemprice5").textContent;
-  sum += Number(price5);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count5").textContent = count5;
+  row5El.innerHTML = `<td>Cold Coffee</th><th>${count5}</td>`;
+  sum += 399;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count6 = 0;
+let row6El = document.getElementById("row6-el");
 function add6() {
   count6 += 1;
-  let price6 = document.getElementById("itemprice6").textContent;
-  sum += Number(price6);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count6").textContent = count6;
+  row6El.innerHTML = `<td>Frappuccino</th><th>${count6}</td>`;
+  sum += 599;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count7 = 0;
+let row7El = document.getElementById("row7-el");
 function add7() {
   count7 += 1;
-  let price7 = document.getElementById("itemprice7").textContent;
-  sum += Number(price7);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count7").textContent = count7;
+  row7El.innerHTML = `<td>Cold Drinks</th><th>${count7}</td>`;
+  sum += 49;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count8 = 0;
+let row8El = document.getElementById("row8-el");
 function add8() {
   count8 += 1;
-  let price8 = document.getElementById("itemprice8").textContent;
-  sum += Number(price8);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count8").textContent = count8;
+  row8El.innerHTML = `<td>Burger</th><th>${count8}</td>`;
+  sum += 499;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count9 = 0;
+let row9El = document.getElementById("row9-el");
 function add9() {
   count9 += 1;
-  let price9 = document.getElementById("itemprice9").textContent;
-  sum += Number(price9);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count9").textContent = count9;
+  row9El.innerHTML = `<td>Sandwich</th><th>${count9}</td>`;
+  sum += 349;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count10 = 0;
+let row10El = document.getElementById("row10-el");
 function add10() {
   count10 += 1;
-  let price10 = document.getElementById("itemprice10").textContent;
-  sum += Number(price10);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count10").textContent = count10;
+  row10El.innerHTML = `<td>Snack and Sweet</th><th>${count10}</td>`;
+  sum += 49;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count11 = 0;
+let row11El = document.getElementById("row11-el");
 function add11() {
   count11 += 1;
-  let price11 = document.getElementById("itemprice11").textContent;
-  sum += Number(price11);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count11").textContent = count11;
+  row11El.innerHTML = `<td>Oatmeal</th><th>${count11}</td>`;
+  sum += 149;
+  totalEl.textContent = "Total : $" + sum;
 }
+let count12 = 0;
+let row12El = document.getElementById("row12-el");
 function add12() {
   count12 += 1;
-  let price12 = document.getElementById("itemprice12").textContent;
-  sum += Number(price12);
-  document.getElementById("total").textContent = "Total : " + sum;
-  document.getElementById("count12").textContent = count12;
+  row12El.innerHTML = `<td>Ice Cream</th><th>${count12}</td>`;
+  sum += 199;
+  totalEl.textContent = "Total : $" + sum;
+}
+function refresh() {
+  count1 = 0;
+  count2 = 0;
+  count3 = 0;
+  count4 = 0;
+  count5 = 0;
+  count6 = 0;
+  count7 = 0;
+  count8 = 0;
+  count9 = 0;
+  count10 = 0;
+  count10 = 0;
+  count11 = 0;
+  count12 = 0;
+  sum = 0;
+  totalEl.textContent = "Total : $0";
+  row1El.textContent = "";
+  row2El.textContent = "";
+  row3El.textContent = "";
+  row4El.textContent = "";
+  row5El.textContent = "";
+  row6El.textContent = "";
+  row7El.textContent = "";
+  row8El.textContent = "";
+  row9El.textContent = "";
+  row10El.textContent = "";
+  row11El.textContent = "";
+  row12El.textContent = "";
 }
