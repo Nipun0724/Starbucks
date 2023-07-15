@@ -6,167 +6,109 @@
     <title>Menu</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
-    <link rel="stylesheet" href="/style4.css" />
-    <script src="java4.js"></script>
+    <link rel="stylesheet" href="style4.css" />
   </head>
   <body>
     <h2><b>Menu</b></h2>
-    <div>
-      <table>
-        <tr>
-          <th>Serial No</th>
-          <th>Item Name</th>
-          <th>Quantity</th>
-        </tr>
-        <tr>
-          <th>1</th>
-          <th>Hot Coffee</th>
-          <th id="count1">0</th>
-        </tr>
-        <tr>
-          <th>2</th>
-          <th>Hot Tea</th>
-          <th id="count2">0</th>
-        </tr>
-        <tr>
-          <th>3</th>
-          <th>Iced Tea</th>
-          <th id="count3">0</th>
-        </tr>
-        <tr>
-          <th>4</th>
-          <th>Donuts</th>
-          <th id="count4">0</th>
-        </tr>
-        <tr>
-          <th>5</th>
-          <th>Cold Coffee</th>
-          <th id="count5">0</th>
-        </tr>
-        <tr>
-          <th>6</th>
-          <th>Frappuccino</th>
-          <th id="count6">0</th>
-        </tr>
-        <tr>
-          <th>7</th>
-          <th>Cold Drinks</th>
-          <th id="count7">0</th>
-        </tr>
-        <tr>
-          <th>8</th>
-          <th>Burgers</th>
-          <th id="count8">0</th>
-        </tr>
-        <tr>
-          <th>9</th>
-          <th>Sandwich</th>
-          <th id="count9">0</th>
-        </tr>
-        <tr>
-          <th>10</th>
-          <th>Snacks & Sweets</th>
-          <th id="count10">0</th>
-        </tr>
-        <tr>
-          <th>11</th>
-          <th>Oatmeal</th>
-          <th id="count11">0</th>
-        </tr>
-        <tr>
-          <th>12</th>
-          <th>Ice Cream</th>
-          <th id="count12">0</th>
-        </tr>
-      </table>
-      <br /><br />
-      <p id="total">Total : 0</p>
-      <button id="payment" type="submit">Place order</button><br />
-      <ul>
-        <li>
-          Hot Coffee : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice1">499</span><br /><br /><button onclick="add1()">
-            <img src="/images/Hot coffee.jpg" />
-          </button>
-        </li>
-        <li>
-          Hot Tea : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice2">299</span><br /><br /><button onclick="add2()">
-            <img src="/images/hot tea.jpg" />
-          </button>
-        </li>
-        <li>
-          Iced Tea : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice3">399</span><br /><br /><button onclick="add3()">
-            <img src="/images/iced tea.jpg" />
-          </button>
-        </li>
-        <li>
-          Donuts : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice4">499</span><br /><br /><button onclick="add4()">
-            <img src="/images/donut.jpg" />
-          </button>
-        </li>
-        <li>
-          Cold Coffee : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice5">399</span><br /><br /><button onclick="add5()">
-            <img src="/images/cold coffee.jpg" />
-          </button>
-        </li>
-        <li>
-          Frappuccino : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice6">599</span><br /><br /><button onclick="add6()">
-            <img src="/images/frappuccino.jpg" />
-          </button>
-        </li>
-        <li>
-          Cold Drinks : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice7">49</span><br /><br /><button onclick="add7()">
-            <img src="/images/cold drinks.jpg" />
-          </button>
-        </li>
-        <li>
-          Burger : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice8">499</span><br /><br /><button onclick="add8()">
-            <img src="/images/burgers.jpg" />
-          </button>
-        </li>
-        <li>
-          Sandwich : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice9">349</span><br /><br /><button onclick="add9()">
-            <img src="/images/sandwich.jpg" />
-          </button>
-        </li>
-        <li>
-          Snacks & Sweets : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice10">49</span><br /><br /><button
-            onclick="add10()"
-          >
-            <img src="/images/snacks and sweet.jpg" />
-          </button>
-        </li>
-        <li>
-          Oatmeal : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice11">149</span><br /><br /><button
-            onclick="add11()"
-          >
-            <img src="/images/oatmeal.jpg" />
-          </button>
-        </li>
-        <li>
-          Ice Cream : <i class="fa-solid fa-indian-rupee-sign icon"></i
-          ><span id="itemprice12">199</span><br /><br /><button
-            onclick="add12()"
-          >
-            <img src="/images/ice cream.jpg" />
-          </button>
-        </li>
-      </ul>
-    </div>
+    <p>Your Cart</p>
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+      </tr>
+      <tr id="row1-el"></tr>
+      <tr id="row2-el"></tr>
+      <tr id="row3-el"></tr>
+      <tr id="row4-el"></tr>
+      <tr id="row5-el"></tr>
+      <tr id="row6-el"></tr>
+      <tr id="row7-el"></tr>
+      <tr id="row8-el"></tr>
+      <tr id="row9-el"></tr>
+      <tr id="row-10el"></tr>
+      <tr id="row11-el"></tr>
+      <tr id="row12-el"></tr>
+    </table>
+    <p id="total-el">Total : $0</p>
+    <button id="payment-el" type="submit" onclick="refresh()">
+      Place order</button
+    ><br />
+    <ul>
+      <li>
+        Hot Coffee : $499<br />
+        <button id="btn1-el" onclick="add1()">
+          <img src="/images/Hot coffee.jpg" />
+        </button>
+      </li>
+      <li>
+        Hot Tea : $299<br />
+        <button id="btn2-el" onclick="add2()">
+          <img src="/images/hot tea.jpg" />
+        </button>
+      </li>
+      <li>
+        Iced Tea : $399<br />
+        <button id="btn3-el" onclick="add3()">
+          <img src="/images/iced tea.jpg" />
+        </button>
+      </li>
+      <li>
+        Donut : $499<br />
+        <button id="btn4-el" onclick="add4()">
+          <img src="/images/donut.jpg" />
+        </button>
+      </li>
+      <li>
+        Cold Coffee : $399<br />
+        <button id="btn5-el" onclick="add5()">
+          <img src="/images/cold coffee.jpg" />
+        </button>
+      </li>
+      <li>
+        Frappuccino : $599<br />
+        <button id="btn6-el" onclick="add6()">
+          <img src="/images/frappuccino.jpg" />
+        </button>
+      </li>
+      <li>
+        Cold Drinks : $49<br />
+        <button id="btn7-el" onclick="add7()">
+          <img src="/images/cold drinks.jpg" />
+        </button>
+      </li>
+      <li>
+        Burger : $499<br />
+        <button id="btn8-el" onclick="add8()">
+          <img src="/images/burgers.jpg" />
+        </button>
+      </li>
+      <li>
+        Sandwich : $349<br />
+        <button id="btn9-el" onclick="add9()">
+          <img src="/images/sandwich.jpg" />
+        </button>
+      </li>
+      <li>
+        Snack and Sweet : $49<br />
+        <button id="btn10-el" onclick="add10()">
+          <img src="/images/snacks and sweet.jpg" />
+        </button>
+      </li>
+      <li>
+        Oatmeal : $149<br />
+        <button id="btn11-el" onclick="add11()">
+          <img src="/images/oatmeal.jpg" />
+        </button>
+      </li>
+      <li>
+        Ice Cream : $199<br />
+        <button id="btn12-el" onclick="add12()">
+          <img src="/images/ice cream.jpg" />
+        </button>
+      </li>
+    </ul>
+    <script src="java4.js"></script>
   </body>
 </html>
