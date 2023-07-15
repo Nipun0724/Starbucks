@@ -5,23 +5,31 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-#payment {
+#payment-el {
   border-radius: 3px;
   background-color: green;
   padding: 5px;
   margin-left: 45%;
-  margin-top: 25px;
+  margin-top: 30px;
   font-size: 25px;
   cursor: pointer;
 }
+#message-el {
+  text-align: center;
+  font-size: 20px;
+  color: aliceblue;
+}
 table {
-  margin-left: 480px;
+  margin-top: 30px;
+  margin-left: 39.5%;
   color: aliceblue;
   border: 5px solid aliceblue;
   padding: 5px;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 p {
+  margin-top: 20px;
   text-align: center;
   color: aliceblue;
   font-size: 30px;
@@ -48,10 +56,6 @@ h2 {
   color: aliceblue;
   font-size: 30px;
 }
-.icon {
-  color: aliceblue;
-  font-size: 18px;
-}
 li {
   border: 2px solid aliceblue;
   padding: 15px;
@@ -66,4 +70,10 @@ img:hover {
 button {
   border: none;
   background: none;
+}
+td {
+  padding: 10px 20px;
+}
+th {
+  padding: 10px 20px;
 }
